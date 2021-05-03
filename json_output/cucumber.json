@@ -1,0 +1,103 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3138724500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.beforeclass()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Verify with valid credentials",
+        "description": "",
+        "id": "verify-the-facebook-page;verify-with-valid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1121502900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.aftercl()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 92200,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User is on the facebook page",
+            "match": {
+              "location": "Stepdefinition.user_is_on_the_facebook_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 125253800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user should enter the valid \"jackmavles@gmail.com\" and \"selvamidiotismine\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"jackmavles@gmail.com\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"selvamidiotismine\"",
+                  "offset": 55
+                }
+              ],
+              "location": "Stepdefinition.user_should_enter_the_valid_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 44969800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should click the login button",
+            "match": {
+              "location": "Stepdefinition.user_should_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3097522000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should verify the login page",
+            "match": {
+              "location": "Stepdefinition.user_should_verify_the_login_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verify the facebook page",
+    "description": "",
+    "id": "verify-the-facebook-page",
+    "keyword": "Feature",
+    "uri": "F:/Eclipse-workspace/CucumberProgram/src/test/resources/org/feature/Feature.feature",
+    "tags": []
+  }
+]
